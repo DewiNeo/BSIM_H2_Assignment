@@ -1,4 +1,5 @@
 const charactersList = document.getElementById('charactersList');
+const searchBar = document.getElementById('searchBar');
 let hpCharacters = [];
 
 const loadCharacters = async () => {
@@ -27,3 +28,16 @@ const displayCharacters = (characters) => {
 };
 
 loadCharacters();
+
+searchBar.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
+
+    const filteredCharacters = hpCharacters.filter((character) => {
+        return (
+            character.anime.toLowerCase().includes(searchString) ||
+            character.character.toLowerCase().includes(searchString) ||
+            character.quote.toLowerCase().includes(searchString)
+        );
+    });
+    displayCharacters(filteredCharacters);
+});
