@@ -34,9 +34,7 @@ searchBar.addEventListener('keyup', (e) => {
 
     const filteredCharacters = hpCharacters.filter((character) => {
         return (
-            character.anime.toLowerCase().includes(searchString) ||
-            character.character.toLowerCase().includes(searchString) ||
-            character.quote.toLowerCase().includes(searchString)
+            character.anime.toLowerCase().includes(searchString) 
         );
     });
     displayCharacters(filteredCharacters);
