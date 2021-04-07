@@ -75,12 +75,23 @@ ul{
 }
 
 .search-box input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
     font-size: 30px;
     border: none;
   }
   
-  .search-box {
-      text-align: center;
-  }
+.search-box {
+    text-align: center;
+}
+
+  #searchWrapper {
+    position: relative;
+}
+
+#searchBar {
+    width: 50%;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 12px;
+}
