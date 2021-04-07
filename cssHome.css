@@ -64,3 +64,12 @@ ul{
     padding-bottom: 50px;
     right: 160px; 
 }
+
+.jsstyle{
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #1e3252;
+}
