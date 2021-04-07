@@ -1,0 +1,66 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.bg{
+    background-image: url(./aset/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+    font-size: 45px;
+    color: #35455D; 
+    color: #232d60;
+}
+
+.content h3{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+.content p {
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.feature-img{
+    height: 70%;
+    position: absolute;
+    bottom: 0;  
+    padding-bottom: 50px;
+    right: 160px; 
+}
