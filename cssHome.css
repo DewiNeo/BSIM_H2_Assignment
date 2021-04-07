@@ -73,3 +73,14 @@ ul{
     margin-bottom: 15px;
     color: #1e3252;
 }
+
+.search-box input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 30px;
+    border: none;
+  }
+  
+  .search-box {
+      text-align: center;
+  }
