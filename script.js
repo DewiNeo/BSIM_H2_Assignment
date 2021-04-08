@@ -21,6 +21,7 @@ const displayCharacters = (characters) => {
                 <p>${character.character}</p>
                 <p>${character.quote}</p>
             </li>
+            <br>
         `;
         })
         .join('');
@@ -34,7 +35,7 @@ searchBar.addEventListener('keyup', (e) => {
 
     const filteredCharacters = hpCharacters.filter((character) => {
         return (
-            character.anime.toLowerCase().includes(searchString) 
+            character.anime.toLowerCase().includes(searchString)
         );
     });
     displayCharacters(filteredCharacters);
